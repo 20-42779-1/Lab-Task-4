@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.phptutorial.net/app/css/style.css">
+    <title>Registration</title>
+</head>
+<body>
+<main>
+    <form action="register.php" method="post">
+        <h1>Registration</h1>
+        <div>
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name">
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="Email" name="Email" id="Email">
+        </div>
+        <div>
+            
+            <label for="User Name">User Name:</label>
+            <input type="text" name="User Name" id="User Name">
+        </div>
+        <div>
+            <label for="Password">Password:</label>
+            <input type="text" name="Password" id="Password">
+        </div>
+        <div>
+
+            <label for="Confirm Password">Confirm Password:</label>
+            <input type="Confirm Password" name="Confirm Password" id="Confirm Password">
+        </div>
+        <div>
+            
+            <label for="agree">
+                <input type="checkbox" name="agree" id="agree" value="yes"/> I agree
+                with the
+                <a href="#" title="term of services">term of services</a>
+            </label>
+        </div>
+        <button type="submit">Register</button>
+        <footer>Already a member? <a href="login.php">Login here</a></footer>
+    </form>
+</main>
+</body>
+</html>
